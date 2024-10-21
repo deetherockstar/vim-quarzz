@@ -91,6 +91,10 @@ endif
 call s:h("Cursor",        {"bg": s:pink, "fg": s:norm })
 call s:h("Comment",       {"fg": s:bg_subtle, "gui": "italic"})
 
+call s:h("Keyword",       {"fg": s:dark_red})
+call s:h("Type",          {"fg": s:norm_subtle})
+
+
 call s:h("Constant",      {"fg": s:pink})
 hi! link Character        Constant
 hi! link Number           Constant
@@ -224,3 +228,11 @@ hi link GitGutterAdd                LineNr
 hi link GitGutterDelete             LineNr
 hi link GitGutterChange             LineNr
 hi link GitGutterChangeDelete       LineNr
+
+"TreeSitter config
+call s:h("TSFunction", {"fg": s:pink})
+call s:h("TSKeyword", {"fg": s:light_blue})
+call s:h("TSString", {"fg": s:dark_red})
+call s:h("TSVariable", {"fg": s:light_cyan})
+call s:h("TSConstant", {"fg": s:blue})
+call s:h("TSOperator", {"fg": s:light_yellow})
