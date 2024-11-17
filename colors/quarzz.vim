@@ -1,6 +1,6 @@
 "Name: quarzz.vim
 "Version: 0.0.1
-"Maintainer: github.com/deetherockstar
+"Maintainer: github.com/seventwogth
 "License: The MIT License (MIT)
 "
 """
